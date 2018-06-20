@@ -45,7 +45,8 @@
     [EAGLContext setCurrentContext:self.mContext]; 
 }
 
-- (void)glkView:(GLKView *)view drawInRect:(CGRect)rect
+
+
 {
     draw();
 }

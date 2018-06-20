@@ -11,7 +11,6 @@
 
 unsigned char *loadFileContent(const char *path, int &fileSize)
 {
-    
     unsigned char *fileContent = nullptr;
     fileSize = 0;
     NSString *nsPath = [[NSBundle mainBundle] pathForResource:[NSString stringWithUTF8String:path] ofType:nil];
