@@ -46,7 +46,7 @@
 }
 
 
-
+- (void)glkView:(GLKView *)view drawInRect:(CGRect)rect
 {
     draw();
 }
