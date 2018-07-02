@@ -21,6 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     [self p_InitContext];
     [self p_PrepareData];
 }
@@ -118,7 +119,6 @@
 {
     glClearColor(0.3f, 0.3f, 0.3f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    
     
     [self.mEffect prepareToDraw];
     glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_INT, 0);
